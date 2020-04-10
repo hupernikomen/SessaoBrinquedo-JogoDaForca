@@ -1,0 +1,62 @@
+section#boneco {
+   display: none;
+   position: relative;
+   width: 40px;
+}
+
+.cabeca {
+   width: 15px;
+   height: 15px;
+   border: 4px solid #222;
+   border-radius: 50%;
+}
+
+.tronco {
+   width: 2px;
+   height: 33px;
+   border: 2px solid #222;
+   background: #000;
+}
+
+.bracoDireito {
+   position: absolute;
+   width: 2px;
+   height: 20px;
+   border: 2px solid #222;
+   background: #000;
+   transform: rotate(30deg);
+   left: 10px;
+}
+
+.bracoEsquerdo {
+   position: absolute;
+   width: 2px;
+   height: 20px;
+   border: 2px solid #222;
+   background: #000;
+   transform: rotate(150deg);
+   right: 10px;
+}
+
+
+.pernaDireita {
+   position: absolute;
+   width: 2px;
+   height: 20px;
+   border: 2px solid #222;
+   background: #000;
+   transform: rotate(30deg);
+   left: 10px;
+   top: 55px;
+}
+
+.pernaEsquerda {
+   position: absolute;
+   width: 2px;
+   height: 20px;
+   border: 2px solid #222;
+   background: #000;
+   transform: rotate(150deg);
+   right: 10px;
+   top: 55px;
+}
