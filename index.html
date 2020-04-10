@@ -14,26 +14,13 @@
    <div id="main">
       <h1>Jogo da Forca</h1>
 
-      <div id="containerForca">
-         <section id="boneco">
+      <div id="containerForca"></div>
 
-            <div class="cabeca"></div>
-            <div class="tronco"></div>
-            <div class="bracoDireito"></div>
-            <div class="bracoEsquerdo"></div>
-            <div class="pernaDireita"></div>
-            <div class="pernaEsquerda"></div>
+      <div id="palavra"></div>
 
-         </section>
-      </div>
-
-
-
-      <div id="palavra">
-
-      </div>
       <form></form>
 
+      <p id="alerta"></p>
       <form onsubmit="jogo.verificaLetra(event)">
 
          <input id="chute" type="text">
@@ -47,6 +34,7 @@
       let jogo = new Jogo();
 
       jogo.sorteiaPalavra();
+      console.log(jogo.palavraSorteada)
 
    </script>
 </body>
